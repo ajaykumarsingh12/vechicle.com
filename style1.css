@@ -1,0 +1,68 @@
+@media only screen and (max-width:650px) {
+    span {
+        display: block;
+    }
+
+    .nav_bar {
+        display: none;
+    }
+
+    .nav_bar.full {
+        transition: all 1s linear;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+
+    #header {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img#img {
+        padding: 20px;
+        transition: all 0.5s linear;
+    }
+
+    img#img:hover {
+        padding: 10px;
+    }
+
+    .stop1 {
+        display: block;
+        position: fixed;
+        bottom: 100px;
+        right: 0px;
+        transform: translateX(-10px);
+        transition: all 2s linear;
+        background-color: lightblue;
+        z-index: 2;
+    }
+
+    img[src="images/tata-intra-v10-grey-colour-rh-side.jpg"] {
+        width: 100%;
+    }
+
+    .full {
+        width: 100%;
+        transform: translateX(-200px);
+    }
+
+    .full:hover {
+        transition: all 1s linear;
+        width: 100%;
+        background-color: gray;
+        transform: translateX(-20px);
+
+
+
+    }
+
+    a.button1 {
+        color: white;
+    }
+
+}
